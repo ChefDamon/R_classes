@@ -1,0 +1,8 @@
+install.packages("rstudioapi")
+rstudioapi::addTheme("http://url-to-the-rstheme/", apply = TRUE)
+night_owlish <- "https://raw.githubusercontent.com/batpigandme/night-owlish/master/rstheme/night-owlish.rstheme"
+rstudioapi::addTheme(night_owlish, apply = TRUE)
+Synthwave85 <- "https://raw.githubusercontent.com/jnolis/synthwave85/master/Synthwave85.rstheme"
+rstudioapi::addTheme(Synthwave85, apply = TRUE)
+yule_theme <- "https://raw.githubusercontent.com/gadenbuie/yule-rstudio/master/Yule-RStudio.rstheme"
+rstudioapi::addTheme(yule_theme, apply = TRUE)
